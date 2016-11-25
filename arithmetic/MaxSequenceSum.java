@@ -14,7 +14,7 @@ public class MaxSequenceSum {
 		int maxSum = 0;
 		int thisSum = 0;
 		int length = Integer.parseInt(args[0]);
-		for(int j = 1; j < length; j++){
+		for(int j = 1; j <= length; j++){
 			thisSum += Integer.parseInt(args[j]);
 			if(thisSum < 0){
 				thisSum = 0;
