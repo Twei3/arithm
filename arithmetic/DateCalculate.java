@@ -1,4 +1,3 @@
-package com.efront.junit.exercise.part01.main;
 /**
  * 输入某年year(4位正整数)某月month（1-12）某日day（1-31），判断这一天是这一年的第几天。
  * 如果日期无效，请输出-1. 
