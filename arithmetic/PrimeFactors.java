@@ -1,4 +1,3 @@
-package com.efront.junit.exercise.part01.main;
 /**
  * 将一个正整数分解质因数
  * @author tangwei

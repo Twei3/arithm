@@ -1,5 +1,3 @@
-package com.efront.junit.exercise.part01.main;
-
 import java.util.PriorityQueue;
 import java.util.Queue;
 

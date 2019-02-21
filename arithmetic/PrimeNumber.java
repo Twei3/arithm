@@ -1,4 +1,3 @@
-package com.efront.junit.exercise.part01.main;
 /**
  * 算法求一个正整数的质因数之和。例如输入为12，它的质因数为2、2、3，则和为7。
  * @author tangwei

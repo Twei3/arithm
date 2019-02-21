@@ -1,4 +1,3 @@
-package com.efront.junit.exercise.part01.main;
 /**
  * 输入一个正数n，输出所有和为n连续正数序列。1+2+3+4+5 = 4+5+6 = 7+8 = 15
  * @author tangwei
