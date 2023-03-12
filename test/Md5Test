@@ -1,0 +1,20 @@
+package cn.byzk.safe;
+
+import cn.hutool.crypto.digest.MD5;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Md5Test {
+    public static void main(String[] args) {
+        String salt = "sljhj";
+        // 获取当前日期和小时
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHH");
+        String dateHour = simpleDateFormat.format(date);
+        System.out.println(dateHour);
+        MD5 md5 = new MD5();
+        String hashStr = md5.digestHex16(salt + dateHour);
+        System.out.println(hashStr);
+    }
+}
